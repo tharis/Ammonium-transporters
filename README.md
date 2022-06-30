@@ -21,4 +21,4 @@ MAFFT file.in > file.out
 
 ncfp search was run using the command 
 
-ncfp -s <filein> <fileout> <emial>
+ncfp -s filein fileout emial
