@@ -18,3 +18,7 @@ Then clicking on the structure ID at the top left. This brings you to the PDB si
 Alignments done usig MAFFT in the command line
 
 MAFFT file.in > file.out
+
+ncfp search was run using the command 
+
+ncfp -s <filein> <fileout> <emial>
