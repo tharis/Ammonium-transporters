@@ -9,8 +9,8 @@ E.coli Amtb 3CIJ,
 N.europaea Rh50 3B9W,
 H.sapiens RHCG 3HD6,
 S.cerevisiae Mep2 5AEX,
-Candidatus kuenenia stuttgertiensis Amt1 6EU6,
-A.fulgidus Amt5 2B2I,
+Candidatus kuenenia stuttgertiensis Amt5 6EU6,
+A.fulgidus Amt1 2B2I,
 C.albicans Mep2 5AF1
 
 Then clicking on the structure ID at the top left. This brings you to the PDB site. Click on sequence then view features in 3D and you can use this to get the helix sequence in relation to the protein structure.
