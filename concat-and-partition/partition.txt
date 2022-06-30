@@ -1,0 +1,11 @@
+GTR+G+FO, helix1=1-111
+GTR+G+FO, helix2=112-258
+GTR+G+FO, helix3=259-336
+GTR+G+FO, helix4=337-417
+GTR+G+FO, helix5=418-498
+GTR+G+FO, helix6=499-582
+GTR+G+FO, helix7=583-678
+GTR+G+FO, helix8=679-729
+GTR+G+FO, helix9=730-831
+GTR+G+FO, helix10=832-945
+GTR+G+FO, helix11=946-1062
