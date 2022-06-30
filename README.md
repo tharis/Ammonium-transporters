@@ -6,7 +6,7 @@ Full length sequences obtained from NCBI.
 Helix sequences obtained by searching NCBI with the pdb IDs for each known ammonium transport structure
 
 E.coli Amtb 3CIJ,
-N.europaea Rh50 3B9W,
+N.europaea Rh50 3B9W, 
 H.sapiens RHCG 3HD6,
 S.cerevisiae Mep2 5AEX,
 Candidatus kuenenia stuttgertiensis Amt5 6EU6,
@@ -17,24 +17,24 @@ Then clicking on the structure ID at the top left. This brings you to the PDB si
 
 Alignments done usig MAFFT in the command line
 
-MAFFT file.in > file.out
+  MAFFT file.in > file.out
 
 ncfp search was run using the command 
 
-ncfp -s filein fileout emial
+  ncfp -s filein fileout emial
 
 Backthreading first needed the cached_nt.fasta headers to be changed to match their protein alignment files. This was done manually
 Then backthreading was done using the command
 
-t_coffee -other_pg seq_reformat -in nt-file -in2 alignment-file -action +thread_dna_on_prot_aln -output fasta > outfile 
+  t_coffee -other_pg seq_reformat -in nt-file -in2 alignment-file -action +thread_dna_on_prot_aln -output fasta > outfile 
 
 Concatenation was again needed headers to be identical so all information except sequence ID was deldeted manually 
 
-seqkit concat file1 file2.. > outfile
+  seqkit concat file1 file2.. > outfile
 
 The partition file was created manually using the helix_lengths.ipynb notebook to find each helix length.
 
 Raxml was used to create a tree using the alignment and partition files.
 
-raxml-ng -msa alignmentfile -model partitionfile
+  raxml-ng -msa alignmentfile -model partitionfile
 
