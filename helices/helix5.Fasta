@@ -1,14 +1,14 @@
->amtB_[Escherichia_coli]
+>CAD6020544.1/190-204 amtB [Escherichia coli] GN=CAD6020544.1
 HINAAIAGLVGAYLI
->Rh50_[Nitrosomonas_europaea]
+>CAD84359.1/169-191 Ammonium transporter family [Nitrosomonas europaea ATCC 19718] GN=CAD84359.1
 IHAFGAYFGLGVSIALTTAAQRA
->RHCG_[Homo_sapiens]
+>NP_001307970.1/184-199 ammonium transporter Rh type C [Homo sapiens] GN=NP_001307970.1
 IHTFGAYFGLTVTRIL
->MEP2_[Saccharomyces_cerevisiae]
+>CAA96025.1/193-208 MEP2 [Saccharomyces cerevisiae] GN=CAA96025.1
 VHLTSGHGGLVYALIL
->ammonium_transporter_[Candidatus Kuenenia stuttgartiensis]
+>CAJ74453.1/170-186 ammonium transporter [Candidatus Kuenenia stuttgartiensis] GN=CAJ74453.1
 VHSIGGWFAMAAAIMVG
->ammonium_transporter_Archeologlobus fulgidus
+>AAB90264.1/156-172 ammonium transporter (amt-2) [Archaeoglobus fulgidus DSM 4304] GN=AAB90264.1
 VHISSGFAALAVAMTIG
->Mep2_[Candida alibcans]
+>KAF6070074.1/183-202 Ammonium transporter MEP2 [Candida albicans] GN=KAF6070074.1
 GGGPVHENSGFAALAYSLWL
