@@ -38,3 +38,18 @@ Raxml was used to create a tree using the alignment and partition files.
 
   raxml-ng -msa alignmentfile -model partitionfile
 
+
+HMM PROFILES AND HMMER SEARCHING
+
+Next profiles were made for each helix protein alignement]
+
+  hmmbuild hmmfile alignmentfile
+  
+These were used to search pfam Uniprot file from: 
+    https://pfam.xfam.org/family/PF00909.21#tabview=tab3
+    
+    hmmsearch -A alignmentfile hmmprofile database > searchresults
+    
+The results of this  are too big to upload for now and the alignment files generated come in stockhold format. These were converted to fasta format using a python script.
+
+Hit numbers varied greatly for each helix. Helix 5 gave the lowest nuber of hits being only 2826. Since other helix searches returned many more hits it was decided that we could use these ~3000 sequences to creat a new profile. This was used to search again and increased hits to 8807. 
