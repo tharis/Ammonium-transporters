@@ -28,7 +28,7 @@ Then backthreading was done using the command
 
     t_coffee -other_pg seq_reformat -in nt-file -in2 alignment-file -action +thread_dna_on_prot_aln -output fasta > outfile 
 
-Concatenation was again needed headers to be identical so all information except sequence ID was deldeted manually 
+Concatenation again needed headers to be identical so all information except sequence ID was deleted manually.
 
     seqkit concat file1 file2.. > outfile
 
