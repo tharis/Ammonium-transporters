@@ -17,33 +17,33 @@ Then clicking on the structure ID at the top left. This brings you to the PDB si
 
 Alignments done usig MAFFT in the command line
 
-  MAFFT file.in > file.out
+    MAFFT file.in > file.out
 
 ncfp search was run using the command 
 
-  ncfp -s filein fileout emial
+    ncfp -s filein fileout emial
 
 Backthreading first needed the cached_nt.fasta headers to be changed to match their protein alignment files. This was done manually
 Then backthreading was done using the command
 
-  t_coffee -other_pg seq_reformat -in nt-file -in2 alignment-file -action +thread_dna_on_prot_aln -output fasta > outfile 
+    t_coffee -other_pg seq_reformat -in nt-file -in2 alignment-file -action +thread_dna_on_prot_aln -output fasta > outfile 
 
 Concatenation was again needed headers to be identical so all information except sequence ID was deldeted manually 
 
-  seqkit concat file1 file2.. > outfile
+    seqkit concat file1 file2.. > outfile
 
 The partition file was created manually using the helix_lengths.ipynb notebook to find each helix length.
 
 Raxml was used to create a tree using the alignment and partition files.
 
-  raxml-ng -msa alignmentfile -model partitionfile
+    raxml-ng -msa alignmentfile -model partitionfile
 
 
 HMM PROFILES AND HMMER SEARCHING
 
 Next profiles were made for each helix protein alignement]
 
-  hmmbuild hmmfile alignmentfile
+    hmmbuild hmmfile alignmentfile
   
 These were used to search pfam Uniprot file from: 
     https://pfam.xfam.org/family/PF00909.21#tabview=tab3
