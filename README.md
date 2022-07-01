@@ -53,7 +53,7 @@ The command used to search this database of ~63,000 sequences was
     
 The results of this  are too big to upload for now and the alignment files generated come in stockholm format. These were converted to fasta format using the python script above.
 
-Hit numbers varied greatly for each helix. Helix 5 gave the lowest nuber of hits being only 2826. Since other helix searches returned many more hits it was decided that we could use these ~3000 sequences to creat a new profile. This was used to search again and increased hits to 8807. 
+Hit numbers varied greatly for each helix. Helix 5 gave the lowest nuber of hits being only 2826. Since other helix searches returned many more hits it was decided that we could use these ~3000 sequences to creat a new profile. This was used to search again and increased hits to 8807. A secomnd round of this returned aroudn 13,000 hits. 
 
 To visualise the coverage of helix hits for each protein, the IDs were take from each fasta file, a dicitonary was made with the key being the IDs of each protein in the initial pfam file and 11 value slots. Using a numpy array we could visualise where matches had been made and where they hadn't.
 
