@@ -59,6 +59,6 @@ To visualise the coverage of helix hits for each protein, the IDs were take from
 
 Interestingly in the case of a few proteins like an uncharacterized protein from Peronospora effusa (A0A3M6V931) there were 3 fairly identical matches each from well spaced, different sections of what seemed to be a large protein. Upon closer inspection this looks like it could actually be three separate ammonium transporters annotated as one https://www.ebi.ac.uk/interpro/protein/UniProt/A0A3M6V931/.
 
-The large pfam file conatined many fragments of proteins sequences. Since the aim is to get matches for all 11 helices, a truncated protein is unlikely to be helpful so sequences were filters based on whether they had fragments in their header.
+The large pfam file conatined many protein sequence fragments. Since the aim is to get matches for all 11 helices, a truncated protein is unlikely to be helpful so sequences were filters based on whether they had fragments in their header.
 
     seqkit grep -r -n -i -v -p '.*fragment.*' Uniprotfulllength.fasta > no_fragments.fasta
